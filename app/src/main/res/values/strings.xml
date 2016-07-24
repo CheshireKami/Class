@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ClassApp</string>
+    <string name="str_login">登陆</string>
+    <string name="str_regist">注册</string>
+</resources>
