@@ -7,17 +7,17 @@
     tools:context="com.kami.view.MainActivity">
 
 
-    <FrameLayout
+    <android.support.v4.view.ViewPager
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"></FrameLayout>
+        android:layout_weight="1" />
 
 
     <include
         layout="@layout/include_tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"></include>
+        android:layout_alignParentBottom="true" />
 
-</>
+</LinearLayout>

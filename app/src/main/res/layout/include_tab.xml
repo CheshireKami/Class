@@ -8,6 +8,7 @@
 
 
     <LinearLayout
+        android:id="@+id/tab_msg"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -16,6 +17,7 @@
         android:padding="2dp">
 
         <ImageView
+            android:id="@+id/img_msg"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/tab_msg_pressed" />
@@ -28,6 +30,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/tab_flag"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -36,9 +39,10 @@
         android:padding="2dp">
 
         <ImageView
+            android:id="@+id/img_flag"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="@drawable/tab_flag_nromal" />
+            android:background="@drawable/tab_flag_normal" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,6 +52,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/tab_me"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -56,9 +61,11 @@
         android:padding="2dp">
 
         <ImageView
+            android:id="@+id/img_me"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="@drawable/tab_me_normal" />
+            android:background="@drawable/tab_me_normal"
+            android:clickable="false" />
 
         <TextView
             android:layout_width="wrap_content"
